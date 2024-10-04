@@ -54,6 +54,7 @@ const server = http.createServer((req, res) => {
           console.log(error);
         } else {
           // Emit "mailSent" event
+          //ajeet sharma
           customEvent.mailSent(email);
         }
       });
